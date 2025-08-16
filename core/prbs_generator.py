@@ -30,7 +30,7 @@ class PRBSOrder(Enum):
     PRBS31 = 31
 
 class PRBSGenerator:
-    """Generates PRBS sequences for PRBS7, PRBS9, PRBS15, PRBS31."""
+    """Generates PRBS sequences for PRBS7, PRBS9, PRBS11, PRBS15, PRBS23, PRBS31."""
 
     # Predefined tap positions for PRBS polynomials
     _prbs_taps = {
